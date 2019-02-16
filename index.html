@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />	
+	<title>Camosun ICS Quiz</title> 
+	<link rel="stylesheet" href="includes/styles.css" type="text/css" media="screen" />
+</head>
+
+<body>
+	<div id="header">
+		<h2>Welcome to the Camosun ICS Quiz</h2>
+		<br><p>Please enter your name below and click on "Begin Quiz" to start</p><br>
+		<strong>Name: </strong><input type="text" id="name">
+		<button id="begin">Begin Quiz</button> 	
+		<br><br>
+	</div>  
+	<div id='parttop'>
+		<h2 id="center1">Camosun ICS Quiz</h2>
+		<br><p id="center2">Test your ICS Knowledge</p><br>
+		<hr />
+		<br><span id="welcome"></span><br>
+		<div id="result1"></div>
+		<p>		
+		<strong>1. Where is Camosun College located in?</strong><br><br>
+		<input type="radio" name="q1" value="q1a1"> a. Vancouver<br>
+		<input type="radio" name="q1" value="q1a2"> b. Vancouver Island<br>
+		<input type="radio" name="q1" value="q1a3"> c. Alberta<br>
+		<input type="radio" name="q1" value="q1a4"> d. Calgary<br>
+		<div class="hint" id="h01">[HINT]<span id="hint01" class="classhint">It is located in some island.</span></div>
+ 		</p>
+		<p>
+		<strong>2. How many campuses does Camosun have?</strong><br><br>
+		<input type="radio" name="q2" value="q2a1"> a. One<br>
+		<input type="radio" name="q2" value="q2a2"> b. Two<br>
+		<input type="radio" name="q2" value="q2a3"> c. Three<br>
+		<input type="radio" name="q2" value="q2a4"> d. Four
+		<div class="hint" id="h02">[HINT]<span id="hint02" class="classhint">Interurban and Lansdowne.</span></div>
+		</p>
+		<p>
+		<strong>3. Which one is not the course for 1st year ICS?</strong><br><br> 
+		<input type="radio" name="q3" value="q3a1"> a. ICS 110<br>
+		<input type="radio" name="q3" value="q3a2"> b. ICS 112<br>
+		<input type="radio" name="q3" value="q3a3"> c. ICS 124<br>
+		<input type="radio" name="q3" value="q3a4"> d. ICS 221
+		<div class="hint" id="h03">[HINT]<span id="hint03" class="classhint">First year courses start number 1.</span></div>
+		</p>
+		<p>
+		<strong>4. How long is the reading break?</strong><br><br> 
+		<input type="radio" name="q4" value="q4a1"> a. 1 week<br>
+		<input type="radio" name="q4" value="q4a2"> b. 1 day<br>
+		<input type="radio" name="q4" value="q4a3"> c. 1 year<br>
+		<input type="radio" name="q4" value="q4a4"> d. 1 month
+		<div class="hint" id="h04">[HINT]<span id="hint04" class="classhint">5 days is enough.</span></div>
+		</p>
+		 <p>
+		<strong>5. Which courses can we learn from ICS? (choose more than 1)</strong><br><br> 
+		<input type="checkbox" name="q5" value="q5a1"> a. Java<br>
+		<input type="checkbox" name="q5" value="q5a2"> b. Linux<br>
+		<input type="checkbox" name="q5" value="q5a3"> c. PHP<br>
+		<input type="checkbox" name="q5" value="q5a3"> d. Chemical
+		<div class="hint" id="h05">[HINT]<span id="hint05" class="classhint">It should be related to IT.</span></div>
+		</p>
+		<br>
+		<button id="submit">Submit Answers</button>
+		<br><br><div id="result2"></div>
+		<br><div id="result3"></div> 
+	</div> 	
+</div> <!-- End of content-->
+<footer>
+	<div> 
+	 Copyright &copy; 2019. All rights reserved   
+	</div> 	
+    <br><br>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="includes/project.js"></script> 
+</body>
+</html> 
